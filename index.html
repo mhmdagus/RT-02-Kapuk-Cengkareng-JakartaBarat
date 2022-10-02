@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RT 02 kapuk Jakarta Barat</title>
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  </head>
+  <body>
+    <!-- Awal Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <img src="logo.svg" alt="Bootstrap" width="50" /> RT 02 </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#beranda">Beranda </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#pengurus" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Pengurus </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#about">Tentang Kami</a></li>
+                <li><a class="dropdown-item" href="#struktur">Stuktur Kepengurusan</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kegiatan">Kegiatan</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#info" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Info Warga </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#info">Bantuan Sekolah</a></li>
+                <li><a class="dropdown-item" href="#lainnya">Lainnya</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Akhir Navbar
+
+    <!-- Awal Carousel -->
+    <section id="beranda">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="asset/carousel/1.jpg" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h5>17 Agustus 2022</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+              <p><a href="#" class="btn btn-primary mt-3">Lebih Lanjut</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="asset/carousel/2.jpg" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h5>Tournament</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+              <p><a href="#" class="btn btn-primary mt-3">Lebih Lanjut</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="asset/carousel/3.jpg" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h5>Kunjungan Wisata</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+              <p><a href="#" class="btn btn-primary mt-3">Lebih Lanjut</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="asset/carousel/4.jpg" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h5>Keadaan Lingkungan</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+              <p><a href="#" class="btn btn-primary mt-3">Lebih Lanjut</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="asset/carousel/5.jpg" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h5>Pasar Kapuk</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+              <p><a href="#" class="btn btn-primary mt-3">Lebih Lanjut</a></p>
+            </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Akhir Carousel -->
+
+    <!-- Spacer -->
+    <div class="spacer"></div>
+
+    <!-- about -->
+    <section id="about">
+      <div class="container-fluid two-box bg-primary">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm text-about p-3">
+              <h1 class="big-text">Selamat Datang</h1>
+              <h4>RT. 02/ RW.16 Kel. Kapuk, Kec. Cengkareng, Jakarta Barat</h4>
+              <br />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt natus asperiores delectus, quos odit vel dignissimos totam enim beatae quis neque eveniet porro sit tenetur accusamus, nulla sequi tempora autem voluptas
+                voluptatibus aspernatur molestias tempore dicta. Explicabo quo deserunt magni numquam, tenetur soluta quis alias, cumque consectetur neque repellat odit.
+              </p>
+            </div>
+            <div class=" col-sm about-img">
+              <img src="13.jpg" class="img-fluid p-3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Spacer -->
+    <div class="spacer"></div>
+
+    <!-- Stuktur Kepengurusan -->
+    <section id="struktur">
+      <div class="container-fluid two-box bg-primary">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm text-about p-3">
+              <h1 class="big-text">Struktur Kepengurusan</h1>
+              <br />
+              <p>Stuktur Kepengurusan RT 02 kelurahan kapuk, kecamatan cengkareng Jakarta barat. Diketuai oleh Bapak Mujiono dan Wakil ketuanya Bapak Tomo</p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, nesciunt dolore reiciendis alias eos nam, ab aperiam cupiditate fugiat ut inventore? Laboriosam nulla veritatis mollitia rerum, aliquid illum natus cum dolorem
+                repudiandae dignissimos molestias placeat sed omnis, obcaecati vel numquam asperiores! Mollitia, fugiat suscipit harum placeat et natus vitae! Facilis?
+              </p>
+            </div>
+            <div class="col-sm about-img p-3">
+              <img src="struktur.jpg" class="img-fluid p-3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Spacer -->
+    <div class="spacer"></div>
+
+    <!-- Kegiatan -->
+    <section id="kegiatan">
+      <div class="bg-primary" style="padding-top: 50px; padding-bottom: 50px">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+              <h1 class="big-text mt-3">Kegiatan</h1>
+              <br />
+              <p class="mb-4" style="color: white">Di bawah ini merupakan kegiatan yang terdapat di RT 02 RW 16 Kel. Kapuk, Kec. Cengkareng, Jakarta Barat</p>
+            </div>
+          </div>
+          <div class="row justify-content-center mt-1">
+            <div class="col-sm-4">
+              <div class="card mb-3">
+                <img src="asset/kegiatan/10.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card mb-3">
+                <img src="asset/kegiatan/11.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card mb-3">
+                <img src="asset/kegiatan/12.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card mb-3">
+                <img src="asset/kegiatan/21.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card mb-3">
+                <img src="asset/kegiatan/14.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card mb-3">
+                <img src="asset/kegiatan/15.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card mb-3">
+                <img src="asset/kegiatan/16.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card mb-3">
+                <img src="asset/kegiatan/17.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card mb-3">
+                <img src="asset/kegiatan/18.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card mb-3">
+                <img src="asset/kegiatan/19.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card mb-3">
+                <img src="asset/kegiatan/20.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Spacer -->
+    <div class="spacer"></div>
+
+    <!-- Info Warga Bantuan Sekolah -->
+    <section id="info">
+      <div class="bg-primary" style="padding-top: 50px; padding-bottom: 50px">
+        <div class="container">   
+          <div class="row text-center">
+            <div class="col">
+              <h1 class="big-text mt-3 p-2">Info Warga</h1>
+              <h3 style="color: white">Bantuan Sekolah</h3>
+              <br />
+              <p class="mb-4" style="color: white">Informasi bantuan untuk sekolah (SD, SMP, SMA/SMK) maupun kuliah (PTN dan PTS)</p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-sm-3">
+              <div class="card mb-3">
+                <img src="asset/infoWarga/kjp.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card mb-3">
+                <img src="asset/infoWarga/kjmu.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card mb-3">
+                <img src="asset/infoWarga/pip.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card mb-3">
+                <img src="asset/infoWarga/kip.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="spacer"></div>
+
+    <!-- Info Warga Lainnya -->
+    <section id="lainnya">
+      <div class="bg-primary" style="padding-top: 50px; padding-bottom: 50px">
+        <div class="container">
+          <div  class="row text-center">
+            <div class="col">
+              <h3 id="lainnya" class="p-4 mt-2" style="color: white">Lainnya</h3>
+              <p class="mb-4" style="color: white">Informasi untuk warga mulai dari bantuan pemerintah, pekerjaan, kegiatan RT 02 dan yang lainnya.</p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-sm-3">
+              <div class="card mb-3">
+                <img src="asset/infoWarga/bansos.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card mb-3">
+                <img src="asset/infoWarga/blt.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card mb-3">
+                <img src="asset/infoWarga/vaksin.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card mb-3">
+                <img src="asset/infoWarga/prakerja.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Spacer -->
+     <div class="spacer"></div>
+
+     <!-- Kontak -->
+     <section id="kontak">
+      <div class="bg-primary" style="padding-top: 50px; padding-bottom: 50px">
+        <div class="container">
+          <div  class="row text-center">
+            <div class="col">
+              <h1 id="lainnya" class="p-4 mt-2 big-text" style="color: white">Kontak</h1>
+            </div>
+          </div>
+         <div class="row">
+           <div class="col-sm-6 p-4">
+            <div class="card text-bg-light mb-3" style="max-width: 32rem;">
+              <div class="card-header">Hubungi kami</div>
+              <div class="card-body">
+                <p> <i class="fa-solid fa-envelope"></i> Citizenskapuk02@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> 0213456789</p>
+                <p> <i class="fa-solid fa-location-dot"></i> Pedongkelan Belakang RT.02/RW.16, Kel. Kapuk, Kec. Cengkareng, Jakarta Barat</p>
+              </div>
+            </div>
+           </div>
+          <div class="col-sm-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.887197477707!2d106.74196161428257!3d-6.14584999555024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7e6fd6f3059%3A0x583ed2804e144459!2sJl.%20Pedongkelan%20Pintu%2C%20RT.3%2FRW.13%2C%20Kapuk%2C%20Kecamatan%20Cengkareng%2C%20Kota%20Jakarta%20Barat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1642832880742!5m2!1sid!2sid" class="mt-4"  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+         </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" style="background-color: aliceblue;">
+      <div class="container">
+        <small>Copyright &copy; 2022 - RT 02. All Rights Reserved.</small>
+      </div>
+    </footer>
+
+
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
